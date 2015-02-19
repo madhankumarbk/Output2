@@ -1,0 +1,19 @@
+33) what is the output of the following program?
+main()
+{
+Int c=5;
+Println(“%d%d%d”,c,c<<2,c>>2);
+}
+Output: 
+5
+14
+1
+Explanation:
+1) First the value of ‘c’ is called. Which is 5.
+ 2) Next the left shift operation (c<<2) is done. Left shift is done twice.
+(i.e): 5= 0000 0000 0000 0101
+C<<2=   0000 0000 0001 0100 (twice the left shift). Which is 14.
+3) Next right shift operation (c>>2) is done twice.
+c>>2= 0000 0000 0000 0001 (twice the right shift) .which is equal to 1.
+
+
